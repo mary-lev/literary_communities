@@ -1,0 +1,1409 @@
+{
+  "id": "32",
+  "name": "Community 32 (ВЗ Московского района)",
+  "color": "#9c755f",
+  "network": {
+    "nodes": [
+      {
+        "id": "769",
+        "name": "Наталия Веселова",
+        "centrality": "0.011",
+        "weighted_participation": "5.000",
+        "degree": 1,
+        "events": 8
+      },
+      {
+        "id": "1161",
+        "name": "Алексей Филимонов",
+        "centrality": "0.096",
+        "weighted_participation": "9.462",
+        "degree": 16,
+        "events": 23
+      },
+      {
+        "id": "2572",
+        "name": "Михаил Балашов",
+        "centrality": "0.000",
+        "weighted_participation": "2.559",
+        "degree": 0,
+        "events": 5
+      },
+      {
+        "id": "1679",
+        "name": "Владимир Симаков",
+        "centrality": "0.962",
+        "weighted_participation": "35.945",
+        "degree": 24,
+        "events": 65
+      },
+      {
+        "id": "6929",
+        "name": "Виталий Верушкин",
+        "centrality": "0.038",
+        "weighted_participation": "3.783",
+        "degree": 8,
+        "events": 6
+      },
+      {
+        "id": "1555",
+        "name": "Татьяна Викторова",
+        "centrality": "0.014",
+        "weighted_participation": "2.643",
+        "degree": 1,
+        "events": 5
+      },
+      {
+        "id": "1557",
+        "name": "Александр Медведев",
+        "centrality": "0.033",
+        "weighted_participation": "0.993",
+        "degree": 12,
+        "events": 5
+      },
+      {
+        "id": "22",
+        "name": "Борис Краснов",
+        "centrality": "0.050",
+        "weighted_participation": "2.809",
+        "degree": 4,
+        "events": 7
+      },
+      {
+        "id": "13079",
+        "name": "Юрий Санников",
+        "centrality": "0.038",
+        "weighted_participation": "1.719",
+        "degree": 4,
+        "events": 5
+      },
+      {
+        "id": "24",
+        "name": "Евгений Попов",
+        "centrality": "0.074",
+        "weighted_participation": "11.359",
+        "degree": 14,
+        "events": 19
+      },
+      {
+        "id": "10523",
+        "name": "Юлия Балакшина",
+        "centrality": "0.000",
+        "weighted_participation": "4.000",
+        "degree": 0,
+        "events": 6
+      },
+      {
+        "id": "287",
+        "name": "Алина Мальцева",
+        "centrality": "0.053",
+        "weighted_participation": "2.037",
+        "degree": 3,
+        "events": 5
+      },
+      {
+        "id": "1567",
+        "name": "Александр Александров",
+        "centrality": "0.038",
+        "weighted_participation": "0.573",
+        "degree": 10,
+        "events": 5
+      },
+      {
+        "id": "9122",
+        "name": "Игорь Кравченко",
+        "centrality": "0.063",
+        "weighted_participation": "5.000",
+        "degree": 3,
+        "events": 5
+      },
+      {
+        "id": "3747",
+        "name": "Александр Комаров",
+        "centrality": "0.084",
+        "weighted_participation": "2.744",
+        "degree": 14,
+        "events": 10
+      },
+      {
+        "id": "4771",
+        "name": "Николай Коняев",
+        "centrality": "0.053",
+        "weighted_participation": "5.388",
+        "degree": 2,
+        "events": 9
+      },
+      {
+        "id": "7335",
+        "name": "Валентина Федорова",
+        "centrality": "0.018",
+        "weighted_participation": "2.917",
+        "degree": 3,
+        "events": 5
+      },
+      {
+        "id": "8487",
+        "name": "Светлана Дерепащук",
+        "centrality": "0.021",
+        "weighted_participation": "1.638",
+        "degree": 4,
+        "events": 6
+      },
+      {
+        "id": "2603",
+        "name": "Зинаида Битарова",
+        "centrality": "0.045",
+        "weighted_participation": "1.883",
+        "degree": 5,
+        "events": 5
+      },
+      {
+        "id": "2484",
+        "name": "Ольга Соколова",
+        "centrality": "0.091",
+        "weighted_participation": "4.644",
+        "degree": 13,
+        "events": 13
+      },
+      {
+        "id": "13499",
+        "name": "Антон Ратников",
+        "centrality": "0.038",
+        "weighted_participation": "0.459",
+        "degree": 10,
+        "events": 5
+      },
+      {
+        "id": "5567",
+        "name": "Олег Юрков",
+        "centrality": "0.061",
+        "weighted_participation": "2.250",
+        "degree": 9,
+        "events": 6
+      },
+      {
+        "id": "2241",
+        "name": "Мария Амфилохиева",
+        "centrality": "1.000",
+        "weighted_participation": "43.020",
+        "degree": 21,
+        "events": 85
+      },
+      {
+        "id": "6337",
+        "name": "Эльвира Дворецкая",
+        "centrality": "0.012",
+        "weighted_participation": "1.367",
+        "degree": 1,
+        "events": 5
+      },
+      {
+        "id": "450",
+        "name": "Владимир Скворцов",
+        "centrality": "0.054",
+        "weighted_participation": "3.430",
+        "degree": 16,
+        "events": 7
+      },
+      {
+        "id": "5574",
+        "name": "Галина Дюмонд",
+        "centrality": "0.018",
+        "weighted_participation": "2.627",
+        "degree": 15,
+        "events": 6
+      },
+      {
+        "id": "2248",
+        "name": "Людмила Гарни",
+        "centrality": "0.159",
+        "weighted_participation": "6.775",
+        "degree": 17,
+        "events": 21
+      },
+      {
+        "id": "6475",
+        "name": "Михаил Вэй",
+        "centrality": "0.026",
+        "weighted_participation": "3.275",
+        "degree": 4,
+        "events": 7
+      },
+      {
+        "id": "5585",
+        "name": "Ирина Важинская",
+        "centrality": "0.045",
+        "weighted_participation": "4.619",
+        "degree": 4,
+        "events": 8
+      },
+      {
+        "id": "2644",
+        "name": "Татьяна Лестева",
+        "centrality": "0.053",
+        "weighted_participation": "1.561",
+        "degree": 13,
+        "events": 7
+      },
+      {
+        "id": "1748",
+        "name": "Маргарита Токажевская",
+        "centrality": "0.150",
+        "weighted_participation": "4.748",
+        "degree": 15,
+        "events": 9
+      },
+      {
+        "id": "12502",
+        "name": "Никита Андреев",
+        "centrality": "0.036",
+        "weighted_participation": "1.900",
+        "degree": 5,
+        "events": 6
+      },
+      {
+        "id": "2651",
+        "name": "Николай Наливайко",
+        "centrality": "0.049",
+        "weighted_participation": "0.394",
+        "degree": 12,
+        "events": 5
+      },
+      {
+        "id": "2141",
+        "name": "Роман Бобин",
+        "centrality": "0.019",
+        "weighted_participation": "2.093",
+        "degree": 2,
+        "events": 6
+      },
+      {
+        "id": "3556",
+        "name": "Валентин Голубев",
+        "centrality": "0.076",
+        "weighted_participation": "1.432",
+        "degree": 22,
+        "events": 10
+      },
+      {
+        "id": "4580",
+        "name": "Владимир Никитин",
+        "centrality": "0.021",
+        "weighted_participation": "2.917",
+        "degree": 3,
+        "events": 6
+      },
+      {
+        "id": "3045",
+        "name": "Николай Астафьев",
+        "centrality": "0.005",
+        "weighted_participation": "3.325",
+        "degree": 2,
+        "events": 5
+      },
+      {
+        "id": "5221",
+        "name": "Владимир Морозов",
+        "centrality": "0.090",
+        "weighted_participation": "5.612",
+        "degree": 13,
+        "events": 11
+      },
+      {
+        "id": "2025",
+        "name": "Ирэна Сергеева",
+        "centrality": "0.060",
+        "weighted_participation": "0.836",
+        "degree": 14,
+        "events": 10
+      },
+      {
+        "id": "2028",
+        "name": "Наталья Апрельская",
+        "centrality": "0.039",
+        "weighted_participation": "2.416",
+        "degree": 6,
+        "events": 6
+      },
+      {
+        "id": "4848",
+        "name": "Максим Валюх",
+        "centrality": "0.038",
+        "weighted_participation": "1.071",
+        "degree": 10,
+        "events": 7
+      },
+      {
+        "id": "9970",
+        "name": "Борис Орлов",
+        "centrality": "0.050",
+        "weighted_participation": "2.329",
+        "degree": 17,
+        "events": 9
+      },
+      {
+        "id": "8445",
+        "name": "Николай Рачков",
+        "centrality": "0.050",
+        "weighted_participation": "1.275",
+        "degree": 17,
+        "events": 5
+      },
+      {
+        "id": "4862",
+        "name": "Максим Грановский",
+        "centrality": "0.054",
+        "weighted_participation": "0.902",
+        "degree": 21,
+        "events": 7
+      }
+    ],
+    "edges": [
+      {
+        "source": "769",
+        "target": "7335",
+        "weight": 0.5
+      },
+      {
+        "source": "1161",
+        "target": "22",
+        "weight": 0.25
+      },
+      {
+        "source": "1161",
+        "target": "24",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "1161",
+        "target": "2644",
+        "weight": 0.125
+      },
+      {
+        "source": "1161",
+        "target": "2141",
+        "weight": 0.34285714285714286
+      },
+      {
+        "source": "1161",
+        "target": "2484",
+        "weight": 2.5217391304347827
+      },
+      {
+        "source": "1161",
+        "target": "2028",
+        "weight": 1.0
+      },
+      {
+        "source": "1161",
+        "target": "2241",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "1161",
+        "target": "2248",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "1161",
+        "target": "3556",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "1161",
+        "target": "4862",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "1161",
+        "target": "5574",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "1161",
+        "target": "9970",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "1161",
+        "target": "1679",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "1161",
+        "target": "450",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "1161",
+        "target": "1748",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "1161",
+        "target": "3045",
+        "weight": 0.125
+      },
+      {
+        "source": "1679",
+        "target": "24",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "1679",
+        "target": "2248",
+        "weight": 3.6161835748792277
+      },
+      {
+        "source": "1679",
+        "target": "2241",
+        "weight": 33.29237405106971
+      },
+      {
+        "source": "1679",
+        "target": "2484",
+        "weight": 0.2717391304347826
+      },
+      {
+        "source": "1679",
+        "target": "2603",
+        "weight": 0.75
+      },
+      {
+        "source": "1679",
+        "target": "8487",
+        "weight": 0.25
+      },
+      {
+        "source": "1679",
+        "target": "1748",
+        "weight": 1.4145962732919255
+      },
+      {
+        "source": "1679",
+        "target": "5221",
+        "weight": 0.753968253968254
+      },
+      {
+        "source": "1679",
+        "target": "287",
+        "weight": 1.0
+      },
+      {
+        "source": "1679",
+        "target": "9970",
+        "weight": 0.7161835748792271
+      },
+      {
+        "source": "1679",
+        "target": "5567",
+        "weight": 1.0833333333333333
+      },
+      {
+        "source": "1679",
+        "target": "4580",
+        "weight": 0.3333333333333333
+      },
+      {
+        "source": "1679",
+        "target": "5585",
+        "weight": 0.5
+      },
+      {
+        "source": "1679",
+        "target": "4862",
+        "weight": 0.1328502415458937
+      },
+      {
+        "source": "1679",
+        "target": "2025",
+        "weight": 0.2361111111111111
+      },
+      {
+        "source": "1679",
+        "target": "3556",
+        "weight": 0.5217391304347826
+      },
+      {
+        "source": "1679",
+        "target": "5574",
+        "weight": 0.10507246376811594
+      },
+      {
+        "source": "1679",
+        "target": "450",
+        "weight": 0.10507246376811594
+      },
+      {
+        "source": "1679",
+        "target": "2028",
+        "weight": 0.125
+      },
+      {
+        "source": "1679",
+        "target": "2651",
+        "weight": 0.125
+      },
+      {
+        "source": "1679",
+        "target": "13079",
+        "weight": 0.14285714285714285
+      },
+      {
+        "source": "1679",
+        "target": "6929",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "1679",
+        "target": "8445",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "6929",
+        "target": "2241",
+        "weight": 0.2
+      },
+      {
+        "source": "6929",
+        "target": "2248",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "6929",
+        "target": "5567",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "6929",
+        "target": "5574",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "6929",
+        "target": "450",
+        "weight": 1.0833333333333333
+      },
+      {
+        "source": "6929",
+        "target": "9970",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "6929",
+        "target": "8445",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "1555",
+        "target": "1557",
+        "weight": 0.6428571428571428
+      },
+      {
+        "source": "1557",
+        "target": "2644",
+        "weight": 0.22549019607843135
+      },
+      {
+        "source": "1557",
+        "target": "1567",
+        "weight": 0.058823529411764705
+      },
+      {
+        "source": "1557",
+        "target": "4848",
+        "weight": 0.058823529411764705
+      },
+      {
+        "source": "1557",
+        "target": "3556",
+        "weight": 0.058823529411764705
+      },
+      {
+        "source": "1557",
+        "target": "4862",
+        "weight": 0.058823529411764705
+      },
+      {
+        "source": "1557",
+        "target": "3747",
+        "weight": 0.058823529411764705
+      },
+      {
+        "source": "1557",
+        "target": "2651",
+        "weight": 0.058823529411764705
+      },
+      {
+        "source": "1557",
+        "target": "13499",
+        "weight": 0.058823529411764705
+      },
+      {
+        "source": "1557",
+        "target": "8445",
+        "weight": 0.058823529411764705
+      },
+      {
+        "source": "1557",
+        "target": "2025",
+        "weight": 0.058823529411764705
+      },
+      {
+        "source": "1557",
+        "target": "7335",
+        "weight": 0.16666666666666666
+      },
+      {
+        "source": "22",
+        "target": "24",
+        "weight": 0.5588235294117647
+      },
+      {
+        "source": "22",
+        "target": "3747",
+        "weight": 1.0588235294117647
+      },
+      {
+        "source": "22",
+        "target": "5585",
+        "weight": 0.5
+      },
+      {
+        "source": "13079",
+        "target": "2241",
+        "weight": 1.3857142857142857
+      },
+      {
+        "source": "13079",
+        "target": "5221",
+        "weight": 0.14285714285714285
+      },
+      {
+        "source": "13079",
+        "target": "1748",
+        "weight": 0.14285714285714285
+      },
+      {
+        "source": "24",
+        "target": "3747",
+        "weight": 1.0933062880324544
+      },
+      {
+        "source": "24",
+        "target": "4862",
+        "weight": 0.09866220735785954
+      },
+      {
+        "source": "24",
+        "target": "9970",
+        "weight": 0.05622188905547226
+      },
+      {
+        "source": "24",
+        "target": "2484",
+        "weight": 0.05622188905547226
+      },
+      {
+        "source": "24",
+        "target": "4771",
+        "weight": 1.5
+      },
+      {
+        "source": "24",
+        "target": "2241",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "24",
+        "target": "2248",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "24",
+        "target": "3556",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "24",
+        "target": "5574",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "24",
+        "target": "450",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "24",
+        "target": "1748",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "287",
+        "target": "2241",
+        "weight": 1.0
+      },
+      {
+        "source": "287",
+        "target": "2248",
+        "weight": 0.5
+      },
+      {
+        "source": "1567",
+        "target": "2644",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "1567",
+        "target": "4848",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "1567",
+        "target": "3556",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "1567",
+        "target": "4862",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "1567",
+        "target": "3747",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "1567",
+        "target": "2651",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "1567",
+        "target": "13499",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "1567",
+        "target": "8445",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "1567",
+        "target": "2025",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "9122",
+        "target": "2484",
+        "weight": 1.0
+      },
+      {
+        "source": "9122",
+        "target": "4771",
+        "weight": 1.0
+      },
+      {
+        "source": "9122",
+        "target": "12502",
+        "weight": 1.0
+      },
+      {
+        "source": "3747",
+        "target": "2644",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "3747",
+        "target": "2025",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "3747",
+        "target": "2484",
+        "weight": 0.034482758620689655
+      },
+      {
+        "source": "3747",
+        "target": "2651",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "3747",
+        "target": "3556",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "3747",
+        "target": "9970",
+        "weight": 0.034482758620689655
+      },
+      {
+        "source": "3747",
+        "target": "4848",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "3747",
+        "target": "4862",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "3747",
+        "target": "13499",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "3747",
+        "target": "8445",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "7335",
+        "target": "2644",
+        "weight": 0.16666666666666666
+      },
+      {
+        "source": "8487",
+        "target": "2241",
+        "weight": 0.25
+      },
+      {
+        "source": "8487",
+        "target": "2603",
+        "weight": 0.25
+      },
+      {
+        "source": "8487",
+        "target": "1748",
+        "weight": 0.25
+      },
+      {
+        "source": "2603",
+        "target": "2241",
+        "weight": 0.8611111111111112
+      },
+      {
+        "source": "2603",
+        "target": "5574",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "2603",
+        "target": "1748",
+        "weight": 0.25
+      },
+      {
+        "source": "2484",
+        "target": "2241",
+        "weight": 0.2717391304347826
+      },
+      {
+        "source": "2484",
+        "target": "2248",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "2484",
+        "target": "9970",
+        "weight": 0.05622188905547226
+      },
+      {
+        "source": "2484",
+        "target": "3556",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "2484",
+        "target": "4862",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "2484",
+        "target": "5574",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "2484",
+        "target": "450",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "2484",
+        "target": "1748",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "13499",
+        "target": "2644",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "13499",
+        "target": "2025",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "13499",
+        "target": "2651",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "13499",
+        "target": "3556",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "13499",
+        "target": "4848",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "13499",
+        "target": "4862",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "13499",
+        "target": "8445",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "5567",
+        "target": "2241",
+        "weight": 1.1666666666666665
+      },
+      {
+        "source": "5567",
+        "target": "2248",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "5567",
+        "target": "5574",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "5567",
+        "target": "9970",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "5567",
+        "target": "8445",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "5567",
+        "target": "450",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "5567",
+        "target": "12502",
+        "weight": 0.16666666666666666
+      },
+      {
+        "source": "2241",
+        "target": "2248",
+        "weight": 2.1179951690821257
+      },
+      {
+        "source": "2241",
+        "target": "5221",
+        "weight": 0.7678571428571428
+      },
+      {
+        "source": "2241",
+        "target": "1748",
+        "weight": 3.7479296066252585
+      },
+      {
+        "source": "2241",
+        "target": "5585",
+        "weight": 0.7857142857142857
+      },
+      {
+        "source": "2241",
+        "target": "9970",
+        "weight": 0.5217391304347826
+      },
+      {
+        "source": "2241",
+        "target": "4580",
+        "weight": 0.3333333333333333
+      },
+      {
+        "source": "2241",
+        "target": "3556",
+        "weight": 0.5217391304347826
+      },
+      {
+        "source": "2241",
+        "target": "4862",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "2241",
+        "target": "5574",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "2241",
+        "target": "450",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "2241",
+        "target": "12502",
+        "weight": 0.16666666666666666
+      },
+      {
+        "source": "6337",
+        "target": "2141",
+        "weight": 0.5833333333333333
+      },
+      {
+        "source": "450",
+        "target": "2248",
+        "weight": 0.10507246376811594
+      },
+      {
+        "source": "450",
+        "target": "3556",
+        "weight": 0.2217391304347826
+      },
+      {
+        "source": "450",
+        "target": "4862",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "450",
+        "target": "5574",
+        "weight": 0.10507246376811594
+      },
+      {
+        "source": "450",
+        "target": "6475",
+        "weight": 0.325
+      },
+      {
+        "source": "450",
+        "target": "5221",
+        "weight": 0.2
+      },
+      {
+        "source": "450",
+        "target": "1748",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "450",
+        "target": "9970",
+        "weight": 0.10507246376811594
+      },
+      {
+        "source": "450",
+        "target": "8445",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "5574",
+        "target": "2248",
+        "weight": 0.10507246376811594
+      },
+      {
+        "source": "5574",
+        "target": "3556",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "5574",
+        "target": "4862",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "5574",
+        "target": "9970",
+        "weight": 0.10507246376811594
+      },
+      {
+        "source": "5574",
+        "target": "1748",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "5574",
+        "target": "8445",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "2248",
+        "target": "5221",
+        "weight": 0.125
+      },
+      {
+        "source": "2248",
+        "target": "6475",
+        "weight": 0.5
+      },
+      {
+        "source": "2248",
+        "target": "3556",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "2248",
+        "target": "4862",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "2248",
+        "target": "9970",
+        "weight": 0.10507246376811594
+      },
+      {
+        "source": "2248",
+        "target": "1748",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "2248",
+        "target": "8445",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "6475",
+        "target": "3556",
+        "weight": 0.2
+      },
+      {
+        "source": "6475",
+        "target": "5221",
+        "weight": 0.2
+      },
+      {
+        "source": "5585",
+        "target": "4580",
+        "weight": 0.3333333333333333
+      },
+      {
+        "source": "2644",
+        "target": "2651",
+        "weight": 0.26907993966817495
+      },
+      {
+        "source": "2644",
+        "target": "2025",
+        "weight": 0.26907993966817495
+      },
+      {
+        "source": "2644",
+        "target": "4848",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "2644",
+        "target": "3556",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "2644",
+        "target": "4862",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "2644",
+        "target": "8445",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "2644",
+        "target": "3045",
+        "weight": 0.125
+      },
+      {
+        "source": "1748",
+        "target": "3556",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "1748",
+        "target": "4862",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "1748",
+        "target": "5221",
+        "weight": 1.1428571428571428
+      },
+      {
+        "source": "1748",
+        "target": "9970",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "12502",
+        "target": "2028",
+        "weight": 0.2
+      },
+      {
+        "source": "12502",
+        "target": "5221",
+        "weight": 0.2
+      },
+      {
+        "source": "2651",
+        "target": "2028",
+        "weight": 0.125
+      },
+      {
+        "source": "2651",
+        "target": "2025",
+        "weight": 0.39407993966817495
+      },
+      {
+        "source": "2651",
+        "target": "4848",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "2651",
+        "target": "3556",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "2651",
+        "target": "4862",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "2651",
+        "target": "8445",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "3556",
+        "target": "2025",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "3556",
+        "target": "5221",
+        "weight": 0.2
+      },
+      {
+        "source": "3556",
+        "target": "4848",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "3556",
+        "target": "4862",
+        "weight": 0.21389599317988062
+      },
+      {
+        "source": "3556",
+        "target": "8445",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "3556",
+        "target": "9970",
+        "weight": 0.021739130434782608
+      },
+      {
+        "source": "5221",
+        "target": "2028",
+        "weight": 0.2
+      },
+      {
+        "source": "5221",
+        "target": "2025",
+        "weight": 0.1111111111111111
+      },
+      {
+        "source": "5221",
+        "target": "4862",
+        "weight": 0.1111111111111111
+      },
+      {
+        "source": "5221",
+        "target": "9970",
+        "weight": 0.1111111111111111
+      },
+      {
+        "source": "2025",
+        "target": "2028",
+        "weight": 0.19166666666666665
+      },
+      {
+        "source": "2025",
+        "target": "4862",
+        "weight": 0.3032679738562091
+      },
+      {
+        "source": "2025",
+        "target": "9970",
+        "weight": 0.1111111111111111
+      },
+      {
+        "source": "2025",
+        "target": "4848",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "2025",
+        "target": "8445",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "4848",
+        "target": "4862",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "4848",
+        "target": "8445",
+        "weight": 0.19215686274509802
+      },
+      {
+        "source": "9970",
+        "target": "4862",
+        "weight": 0.1328502415458937
+      },
+      {
+        "source": "9970",
+        "target": "8445",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "8445",
+        "target": "4862",
+        "weight": 0.19215686274509802
+      }
+    ],
+    "filter_stats": {
+      "total_nodes": 339,
+      "active_nodes": 44,
+      "filtered_out": 295,
+      "min_events": 5,
+      "weight_statistics": {
+        "min_weight": 0.021739130434782608,
+        "max_weight": 33.29237405106971,
+        "avg_weight": 0.4614622744571287,
+        "median_weight": 0.19215686274509802
+      },
+      "edge_density": 0.10987197010883999
+    }
+  },
+  "statistics": {
+    "density": 0.10987197010883999,
+    "avg_degree": 9.761904761904763,
+    "avg_weighted_degree": 4.504750774462452,
+    "clustering_coefficient": 0.006299948476961586,
+    "number_of_edges": 205,
+    "active_members_ratio": 0.12979351032448377
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "19",
+  "name": "Community 19 (Умка)",
+  "color": "#90a4ae",
+  "network": {
+    "nodes": [
+      {
+        "id": "704",
+        "name": "Михаил Башаков",
+        "centrality": "0.683",
+        "weighted_participation": "3.924",
+        "degree": 3,
+        "events": 7
+      },
+      {
+        "id": "2341",
+        "name": "Анатолий Багрицкий",
+        "centrality": "0.973",
+        "weighted_participation": "5.061",
+        "degree": 3,
+        "events": 9
+      },
+      {
+        "id": "773",
+        "name": "Ирина Кравцова",
+        "centrality": "0.068",
+        "weighted_participation": "2.212",
+        "degree": 1,
+        "events": 9
+      },
+      {
+        "id": "717",
+        "name": "Константин Арбенин",
+        "centrality": "0.525",
+        "weighted_participation": "5.258",
+        "degree": 3,
+        "events": 12
+      },
+      {
+        "id": "1229",
+        "name": "Анна Герасимова",
+        "centrality": "0.498",
+        "weighted_participation": "8.592",
+        "degree": 1,
+        "events": 14
+      },
+      {
+        "id": "378",
+        "name": "Томас Венцлова",
+        "centrality": "0.566",
+        "weighted_participation": "4.442",
+        "degree": 2,
+        "events": 12
+      },
+      {
+        "id": "4024",
+        "name": "Елена Игнатова",
+        "centrality": "0.000",
+        "weighted_participation": "2.925",
+        "degree": 0,
+        "events": 7
+      },
+      {
+        "id": "17114",
+        "name": "Юкка Маллинен",
+        "centrality": "0.000",
+        "weighted_participation": "2.039",
+        "degree": 0,
+        "events": 7
+      },
+      {
+        "id": "925",
+        "name": "Кирилл Комаров",
+        "centrality": "1.000",
+        "weighted_participation": "3.091",
+        "degree": 3,
+        "events": 6
+      }
+    ],
+    "edges": [
+      {
+        "source": "704",
+        "target": "717",
+        "weight": 0.5909090909090909
+      },
+      {
+        "source": "704",
+        "target": "925",
+        "weight": 0.5909090909090909
+      },
+      {
+        "source": "704",
+        "target": "2341",
+        "weight": 1.3333333333333333
+      },
+      {
+        "source": "2341",
+        "target": "717",
+        "weight": 0.25
+      },
+      {
+        "source": "2341",
+        "target": "925",
+        "weight": 2.0
+      },
+      {
+        "source": "773",
+        "target": "378",
+        "weight": 0.25
+      },
+      {
+        "source": "717",
+        "target": "925",
+        "weight": 1.0909090909090908
+      },
+      {
+        "source": "1229",
+        "target": "378",
+        "weight": 1.8333333333333333
+      }
+    ],
+    "filter_stats": {
+      "total_nodes": 161,
+      "active_nodes": 9,
+      "filtered_out": 152,
+      "min_events": 5,
+      "weight_statistics": {
+        "min_weight": 0.25,
+        "max_weight": 2.0,
+        "avg_weight": 0.9924242424242424,
+        "median_weight": 1.0909090909090908
+      },
+      "edge_density": 0.37806637806637805
+    }
+  },
+  "statistics": {
+    "density": 0.37806637806637805,
+    "avg_degree": 2.2857142857142856,
+    "avg_weighted_degree": 2.268398268398268,
+    "clustering_coefficient": 0.23481859620713066,
+    "number_of_edges": 8,
+    "active_members_ratio": 0.055900621118012424
+  }
+}

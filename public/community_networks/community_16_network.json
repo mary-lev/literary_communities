@@ -1,0 +1,258 @@
+{
+  "id": "16",
+  "name": "Community 16 (Театр)",
+  "color": "#FFBB28",
+  "network": {
+    "nodes": [
+      {
+        "id": "2593",
+        "name": "Валерий Фокин",
+        "centrality": "0.119",
+        "weighted_participation": "1.817",
+        "degree": 1,
+        "events": 5
+      },
+      {
+        "id": "15108",
+        "name": "Антон Оконешников",
+        "centrality": "0.248",
+        "weighted_participation": "3.351",
+        "degree": 3,
+        "events": 8
+      },
+      {
+        "id": "2885",
+        "name": "Александр Володин",
+        "centrality": "0.349",
+        "weighted_participation": "2.720",
+        "degree": 6,
+        "events": 15
+      },
+      {
+        "id": "1125",
+        "name": "Павел Пряжко",
+        "centrality": "0.384",
+        "weighted_participation": "2.357",
+        "degree": 3,
+        "events": 7
+      },
+      {
+        "id": "6917",
+        "name": "Макс Фрай",
+        "centrality": "0.000",
+        "weighted_participation": "4.333",
+        "degree": 0,
+        "events": 8
+      },
+      {
+        "id": "777",
+        "name": "Ксения Дьяконова",
+        "centrality": "0.187",
+        "weighted_participation": "1.739",
+        "degree": 1,
+        "events": 5
+      },
+      {
+        "id": "5424",
+        "name": "Ася Волошина",
+        "centrality": "0.284",
+        "weighted_participation": "0.557",
+        "degree": 4,
+        "events": 5
+      },
+      {
+        "id": "2045",
+        "name": "Павел Басинский",
+        "centrality": "0.187",
+        "weighted_participation": "3.033",
+        "degree": 1,
+        "events": 5
+      },
+      {
+        "id": "242",
+        "name": "Вадим Леванов",
+        "centrality": "0.187",
+        "weighted_participation": "5.700",
+        "degree": 1,
+        "events": 11
+      },
+      {
+        "id": "5395",
+        "name": "Степан Пектеев",
+        "centrality": "0.257",
+        "weighted_participation": "4.219",
+        "degree": 3,
+        "events": 9
+      },
+      {
+        "id": "8435",
+        "name": "Александр Савчук",
+        "centrality": "0.189",
+        "weighted_participation": "1.181",
+        "degree": 2,
+        "events": 8
+      },
+      {
+        "id": "8851",
+        "name": "Роман Габриа",
+        "centrality": "1.000",
+        "weighted_participation": "2.667",
+        "degree": 1,
+        "events": 6
+      },
+      {
+        "id": "2911",
+        "name": "Игорь Павлов",
+        "centrality": "0.057",
+        "weighted_participation": "0.608",
+        "degree": 2,
+        "events": 8
+      },
+      {
+        "id": "2847",
+        "name": "Фаина Гримберг",
+        "centrality": "1.000",
+        "weighted_participation": "3.096",
+        "degree": 1,
+        "events": 11
+      },
+      {
+        "id": "6075",
+        "name": "Александра Абакшина",
+        "centrality": "0.257",
+        "weighted_participation": "2.670",
+        "degree": 3,
+        "events": 6
+      },
+      {
+        "id": "2909",
+        "name": "Александр Кошкидько",
+        "centrality": "0.247",
+        "weighted_participation": "0.546",
+        "degree": 3,
+        "events": 5
+      },
+      {
+        "id": "3327",
+        "name": "Андрей Могучий",
+        "centrality": "0.119",
+        "weighted_participation": "1.867",
+        "degree": 1,
+        "events": 5
+      }
+    ],
+    "edges": [
+      {
+        "source": "2593",
+        "target": "3327",
+        "weight": 0.31666666666666665
+      },
+      {
+        "source": "15108",
+        "target": "2885",
+        "weight": 0.375
+      },
+      {
+        "source": "15108",
+        "target": "6075",
+        "weight": 0.14285714285714285
+      },
+      {
+        "source": "15108",
+        "target": "5395",
+        "weight": 0.14285714285714285
+      },
+      {
+        "source": "2885",
+        "target": "1125",
+        "weight": 0.25
+      },
+      {
+        "source": "2885",
+        "target": "2909",
+        "weight": 0.11145510835913312
+      },
+      {
+        "source": "2885",
+        "target": "2911",
+        "weight": 0.058823529411764705
+      },
+      {
+        "source": "2885",
+        "target": "5424",
+        "weight": 0.08333333333333333
+      },
+      {
+        "source": "2885",
+        "target": "8435",
+        "weight": 0.05263157894736842
+      },
+      {
+        "source": "1125",
+        "target": "242",
+        "weight": 0.5
+      },
+      {
+        "source": "1125",
+        "target": "5424",
+        "weight": 0.27344877344877344
+      },
+      {
+        "source": "777",
+        "target": "2045",
+        "weight": 0.5
+      },
+      {
+        "source": "5424",
+        "target": "6075",
+        "weight": 0.2
+      },
+      {
+        "source": "5424",
+        "target": "5395",
+        "weight": 0.2
+      },
+      {
+        "source": "5395",
+        "target": "6075",
+        "weight": 0.34285714285714286
+      },
+      {
+        "source": "8435",
+        "target": "2909",
+        "weight": 0.45263157894736844
+      },
+      {
+        "source": "8851",
+        "target": "2847",
+        "weight": 2.666666666666667
+      },
+      {
+        "source": "2911",
+        "target": "2909",
+        "weight": 0.09330628803245436
+      }
+    ],
+    "filter_stats": {
+      "total_nodes": 410,
+      "active_nodes": 17,
+      "filtered_out": 393,
+      "min_events": 5,
+      "weight_statistics": {
+        "min_weight": 0.05263157894736842,
+        "max_weight": 2.666666666666667,
+        "avg_weight": 0.3756963862436088,
+        "median_weight": 0.25
+      },
+      "edge_density": 0.05635445793654132
+    }
+  },
+  "statistics": {
+    "density": 0.05635445793654132,
+    "avg_degree": 2.25,
+    "avg_weighted_degree": 0.8453168690481199,
+    "clustering_coefficient": 0.018858957829797265,
+    "number_of_edges": 18,
+    "active_members_ratio": 0.041463414634146344
+  }
+}

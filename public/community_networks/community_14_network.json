@@ -1,0 +1,344 @@
+{
+  "id": "14",
+  "name": "Community 14 (Красный Матрос)",
+  "color": "#bab0ab",
+  "network": {
+    "nodes": [
+      {
+        "id": "2442",
+        "name": "Владимир Фещенко",
+        "centrality": "0.124",
+        "weighted_participation": "1.248",
+        "degree": 1,
+        "events": 5
+      },
+      {
+        "id": "7438",
+        "name": "Дмитрий Дроздецкий",
+        "centrality": "0.202",
+        "weighted_participation": "1.483",
+        "degree": 4,
+        "events": 5
+      },
+      {
+        "id": "8467",
+        "name": "Денис Хрусталев",
+        "centrality": "0.816",
+        "weighted_participation": "3.961",
+        "degree": 7,
+        "events": 9
+      },
+      {
+        "id": "283",
+        "name": "Лев Рубинштейн",
+        "centrality": "0.206",
+        "weighted_participation": "5.338",
+        "degree": 3,
+        "events": 11
+      },
+      {
+        "id": "807",
+        "name": "Дмитрий Озерков",
+        "centrality": "0.136",
+        "weighted_participation": "1.666",
+        "degree": 5,
+        "events": 5
+      },
+      {
+        "id": "168",
+        "name": "Михаил Сапего",
+        "centrality": "0.998",
+        "weighted_participation": "13.341",
+        "degree": 8,
+        "events": 37
+      },
+      {
+        "id": "1966",
+        "name": "Василий Успенский",
+        "centrality": "0.505",
+        "weighted_participation": "2.283",
+        "degree": 6,
+        "events": 6
+      },
+      {
+        "id": "1840",
+        "name": "Екатерина Андреева",
+        "centrality": "0.060",
+        "weighted_participation": "2.018",
+        "degree": 1,
+        "events": 5
+      },
+      {
+        "id": "3643",
+        "name": "Псой Короленко",
+        "centrality": "0.060",
+        "weighted_participation": "8.812",
+        "degree": 1,
+        "events": 12
+      },
+      {
+        "id": "6460",
+        "name": "Андрей Шляхов",
+        "centrality": "0.195",
+        "weighted_participation": "4.595",
+        "degree": 1,
+        "events": 16
+      },
+      {
+        "id": "1358",
+        "name": "Михаил Кукин",
+        "centrality": "0.559",
+        "weighted_participation": "2.667",
+        "degree": 2,
+        "events": 6
+      },
+      {
+        "id": "1359",
+        "name": "Константин Гадаев",
+        "centrality": "0.559",
+        "weighted_participation": "2.333",
+        "degree": 2,
+        "events": 5
+      },
+      {
+        "id": "1360",
+        "name": "Игорь Федоров",
+        "centrality": "0.559",
+        "weighted_participation": "2.553",
+        "degree": 2,
+        "events": 7
+      },
+      {
+        "id": "5726",
+        "name": "Аркадий Ипполитов",
+        "centrality": "0.102",
+        "weighted_participation": "2.707",
+        "degree": 5,
+        "events": 8
+      },
+      {
+        "id": "223",
+        "name": "Андрей Россомахин",
+        "centrality": "1.000",
+        "weighted_participation": "10.272",
+        "degree": 8,
+        "events": 24
+      },
+      {
+        "id": "2535",
+        "name": "Андрей Кузьмин",
+        "centrality": "0.075",
+        "weighted_participation": "0.868",
+        "degree": 4,
+        "events": 5
+      },
+      {
+        "id": "2408",
+        "name": "Мирослав Немиров",
+        "centrality": "0.110",
+        "weighted_participation": "3.417",
+        "degree": 1,
+        "events": 6
+      },
+      {
+        "id": "6389",
+        "name": "Герман Лукомников",
+        "centrality": "0.240",
+        "weighted_participation": "4.706",
+        "degree": 1,
+        "events": 9
+      },
+      {
+        "id": "6394",
+        "name": "Борис Филановский",
+        "centrality": "0.220",
+        "weighted_participation": "2.000",
+        "degree": 2,
+        "events": 5
+      }
+    ],
+    "edges": [
+      {
+        "source": "2442",
+        "target": "223",
+        "weight": 1.0333333333333332
+      },
+      {
+        "source": "7438",
+        "target": "168",
+        "weight": 1.4833333333333332
+      },
+      {
+        "source": "7438",
+        "target": "223",
+        "weight": 0.06666666666666667
+      },
+      {
+        "source": "7438",
+        "target": "2535",
+        "weight": 0.06666666666666667
+      },
+      {
+        "source": "7438",
+        "target": "8467",
+        "weight": 0.06666666666666667
+      },
+      {
+        "source": "8467",
+        "target": "168",
+        "weight": 0.9277777777777778
+      },
+      {
+        "source": "8467",
+        "target": "807",
+        "weight": 0.2
+      },
+      {
+        "source": "8467",
+        "target": "223",
+        "weight": 3.9611111111111117
+      },
+      {
+        "source": "8467",
+        "target": "1966",
+        "weight": 1.2833333333333332
+      },
+      {
+        "source": "8467",
+        "target": "2535",
+        "weight": 0.17777777777777776
+      },
+      {
+        "source": "8467",
+        "target": "5726",
+        "weight": 0.2
+      },
+      {
+        "source": "283",
+        "target": "6394",
+        "weight": 1.3333333333333333
+      },
+      {
+        "source": "283",
+        "target": "807",
+        "weight": 0.3333333333333333
+      },
+      {
+        "source": "283",
+        "target": "5726",
+        "weight": 0.05263157894736842
+      },
+      {
+        "source": "807",
+        "target": "5726",
+        "weight": 0.2
+      },
+      {
+        "source": "807",
+        "target": "223",
+        "weight": 0.2
+      },
+      {
+        "source": "807",
+        "target": "1966",
+        "weight": 0.2
+      },
+      {
+        "source": "168",
+        "target": "6389",
+        "weight": 2.0
+      },
+      {
+        "source": "168",
+        "target": "6460",
+        "weight": 1.625
+      },
+      {
+        "source": "168",
+        "target": "2535",
+        "weight": 0.20103359173126611
+      },
+      {
+        "source": "168",
+        "target": "223",
+        "weight": 0.9277777777777778
+      },
+      {
+        "source": "168",
+        "target": "1966",
+        "weight": 0.25
+      },
+      {
+        "source": "168",
+        "target": "2408",
+        "weight": 0.9166666666666666
+      },
+      {
+        "source": "1966",
+        "target": "223",
+        "weight": 1.7833333333333332
+      },
+      {
+        "source": "1966",
+        "target": "1840",
+        "weight": 0.5
+      },
+      {
+        "source": "1966",
+        "target": "5726",
+        "weight": 0.2
+      },
+      {
+        "source": "3643",
+        "target": "6394",
+        "weight": 0.5
+      },
+      {
+        "source": "1358",
+        "target": "1359",
+        "weight": 2.333333333333333
+      },
+      {
+        "source": "1358",
+        "target": "1360",
+        "weight": 2.333333333333333
+      },
+      {
+        "source": "1359",
+        "target": "1360",
+        "weight": 2.333333333333333
+      },
+      {
+        "source": "5726",
+        "target": "223",
+        "weight": 0.2
+      },
+      {
+        "source": "223",
+        "target": "2535",
+        "weight": 0.17777777777777776
+      }
+    ],
+    "filter_stats": {
+      "total_nodes": 214,
+      "active_nodes": 19,
+      "filtered_out": 195,
+      "min_events": 5,
+      "weight_statistics": {
+        "min_weight": 0.05263157894736842,
+        "max_weight": 3.9611111111111117,
+        "avg_weight": 0.8771110643614849,
+        "median_weight": 0.5
+      },
+      "edge_density": 0.16413774303840648
+    }
+  },
+  "statistics": {
+    "density": 0.16413774303840648,
+    "avg_degree": 3.3684210526315788,
+    "avg_weighted_degree": 2.954479374691318,
+    "clustering_coefficient": 0.12208097217077715,
+    "number_of_edges": 32,
+    "active_members_ratio": 0.08878504672897196
+  }
+}

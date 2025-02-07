@@ -1,0 +1,208 @@
+{
+  "id": "23",
+  "name": "Community 23 (Искусствоведение)",
+  "color": "#ceb888",
+  "network": {
+    "nodes": [
+      {
+        "id": "1220",
+        "name": "Михаил Карасик",
+        "centrality": "0.280",
+        "weighted_participation": "2.527",
+        "degree": 6,
+        "events": 12
+      },
+      {
+        "id": "1221",
+        "name": "Глеб Ершов",
+        "centrality": "0.240",
+        "weighted_participation": "2.486",
+        "degree": 4,
+        "events": 7
+      },
+      {
+        "id": "1222",
+        "name": "Эраст Кузнецов",
+        "centrality": "0.160",
+        "weighted_participation": "0.643",
+        "degree": 5,
+        "events": 5
+      },
+      {
+        "id": "295",
+        "name": "Евгений Белодубровский",
+        "centrality": "1.000",
+        "weighted_participation": "15.332",
+        "degree": 5,
+        "events": 30
+      },
+      {
+        "id": "1224",
+        "name": "Валерий Сажин",
+        "centrality": "0.106",
+        "weighted_participation": "1.963",
+        "degree": 3,
+        "events": 7
+      },
+      {
+        "id": "6628",
+        "name": "Анна Каминская",
+        "centrality": "0.029",
+        "weighted_participation": "2.345",
+        "degree": 1,
+        "events": 5
+      },
+      {
+        "id": "815",
+        "name": "Дмитрий Глуховский",
+        "centrality": "0.237",
+        "weighted_participation": "2.700",
+        "degree": 1,
+        "events": 6
+      },
+      {
+        "id": "10065",
+        "name": "София Азархи",
+        "centrality": "0.254",
+        "weighted_participation": "2.417",
+        "degree": 2,
+        "events": 5
+      },
+      {
+        "id": "3026",
+        "name": "Евгений Больдт",
+        "centrality": "0.022",
+        "weighted_participation": "1.819",
+        "degree": 3,
+        "events": 5
+      },
+      {
+        "id": "4853",
+        "name": "Елена Виноградова",
+        "centrality": "0.949",
+        "weighted_participation": "5.311",
+        "degree": 1,
+        "events": 14
+      },
+      {
+        "id": "8854",
+        "name": "Игорь Вардунас",
+        "centrality": "0.237",
+        "weighted_participation": "3.167",
+        "degree": 1,
+        "events": 5
+      },
+      {
+        "id": "3963",
+        "name": "Юрий Зобнин",
+        "centrality": "0.000",
+        "weighted_participation": "2.992",
+        "degree": 0,
+        "events": 6
+      }
+    ],
+    "edges": [
+      {
+        "source": "1220",
+        "target": "295",
+        "weight": 0.03571428571428571
+      },
+      {
+        "source": "1220",
+        "target": "1221",
+        "weight": 0.14285714285714285
+      },
+      {
+        "source": "1220",
+        "target": "1222",
+        "weight": 0.42857142857142855
+      },
+      {
+        "source": "1220",
+        "target": "1224",
+        "weight": 0.23376623376623376
+      },
+      {
+        "source": "1220",
+        "target": "3026",
+        "weight": 0.03571428571428571
+      },
+      {
+        "source": "1220",
+        "target": "10065",
+        "weight": 0.5
+      },
+      {
+        "source": "1221",
+        "target": "1222",
+        "weight": 0.14285714285714285
+      },
+      {
+        "source": "1221",
+        "target": "1224",
+        "weight": 0.14285714285714285
+      },
+      {
+        "source": "1221",
+        "target": "10065",
+        "weight": 0.75
+      },
+      {
+        "source": "1222",
+        "target": "295",
+        "weight": 0.03571428571428571
+      },
+      {
+        "source": "1222",
+        "target": "1224",
+        "weight": 0.14285714285714285
+      },
+      {
+        "source": "1222",
+        "target": "3026",
+        "weight": 0.03571428571428571
+      },
+      {
+        "source": "295",
+        "target": "3026",
+        "weight": 0.03571428571428571
+      },
+      {
+        "source": "295",
+        "target": "4853",
+        "weight": 4.667857142857143
+      },
+      {
+        "source": "295",
+        "target": "6628",
+        "weight": 0.14285714285714285
+      },
+      {
+        "source": "815",
+        "target": "8854",
+        "weight": 1.1666666666666665
+      }
+    ],
+    "filter_stats": {
+      "total_nodes": 202,
+      "active_nodes": 12,
+      "filtered_out": 190,
+      "min_events": 5,
+      "weight_statistics": {
+        "min_weight": 0.03571428571428571,
+        "max_weight": 4.667857142857143,
+        "avg_weight": 0.5399824134199134,
+        "median_weight": 0.14285714285714285
+      },
+      "edge_density": 0.15708579299488393
+    }
+  },
+  "statistics": {
+    "density": 0.15708579299488393,
+    "avg_degree": 2.909090909090909,
+    "avg_weighted_degree": 1.5708579299488392,
+    "clustering_coefficient": 0.018223455340783852,
+    "number_of_edges": 16,
+    "active_members_ratio": 0.0594059405940594
+  }
+}

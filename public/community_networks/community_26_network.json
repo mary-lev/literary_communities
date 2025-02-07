@@ -1,0 +1,221 @@
+{
+  "id": "26",
+  "name": "Community 26 (Лит. наследие)",
+  "color": "#a5d6a7",
+  "network": {
+    "nodes": [
+      {
+        "id": "3552",
+        "name": "Ангелина Саул",
+        "centrality": "0.462",
+        "weighted_participation": "2.983",
+        "degree": 1,
+        "events": 7
+      },
+      {
+        "id": "4609",
+        "name": "Натали Мерк",
+        "centrality": "0.462",
+        "weighted_participation": "4.731",
+        "degree": 1,
+        "events": 10
+      },
+      {
+        "id": "2794",
+        "name": "Даниэль Орлов",
+        "centrality": "0.132",
+        "weighted_participation": "0.859",
+        "degree": 6,
+        "events": 7
+      },
+      {
+        "id": "6890",
+        "name": "Александр Лобановский",
+        "centrality": "0.088",
+        "weighted_participation": "0.884",
+        "degree": 1,
+        "events": 7
+      },
+      {
+        "id": "2476",
+        "name": "Борис Тайгин",
+        "centrality": "0.221",
+        "weighted_participation": "2.228",
+        "degree": 1,
+        "events": 5
+      },
+      {
+        "id": "2477",
+        "name": "Олег Охапкин",
+        "centrality": "0.789",
+        "weighted_participation": "4.154",
+        "degree": 5,
+        "events": 11
+      },
+      {
+        "id": "302",
+        "name": "Сергей Осколков",
+        "centrality": "0.095",
+        "weighted_participation": "2.822",
+        "degree": 1,
+        "events": 12
+      },
+      {
+        "id": "2733",
+        "name": "Дмитрий Ивашинцов",
+        "centrality": "0.351",
+        "weighted_participation": "3.390",
+        "degree": 6,
+        "events": 14
+      },
+      {
+        "id": "3598",
+        "name": "Александр Черноглазов",
+        "centrality": "0.018",
+        "weighted_participation": "2.240",
+        "degree": 2,
+        "events": 5
+      },
+      {
+        "id": "4018",
+        "name": "Татьяна Ковалькова",
+        "centrality": "1.000",
+        "weighted_participation": "4.444",
+        "degree": 5,
+        "events": 11
+      },
+      {
+        "id": "1174",
+        "name": "Татьяна Горичева",
+        "centrality": "0.247",
+        "weighted_participation": "1.740",
+        "degree": 3,
+        "events": 5
+      },
+      {
+        "id": "950",
+        "name": "Алексей Дмитренко",
+        "centrality": "0.000",
+        "weighted_participation": "2.150",
+        "degree": 0,
+        "events": 8
+      },
+      {
+        "id": "3515",
+        "name": "Константин Пигров",
+        "centrality": "0.018",
+        "weighted_participation": "2.184",
+        "degree": 2,
+        "events": 5
+      }
+    ],
+    "edges": [
+      {
+        "source": "3552",
+        "target": "4609",
+        "weight": 2.090909090909091
+      },
+      {
+        "source": "2794",
+        "target": "1174",
+        "weight": 0.04
+      },
+      {
+        "source": "2794",
+        "target": "2477",
+        "weight": 0.04
+      },
+      {
+        "source": "2794",
+        "target": "2733",
+        "weight": 0.04
+      },
+      {
+        "source": "2794",
+        "target": "3598",
+        "weight": 0.04
+      },
+      {
+        "source": "2794",
+        "target": "4018",
+        "weight": 0.04
+      },
+      {
+        "source": "2794",
+        "target": "6890",
+        "weight": 0.4
+      },
+      {
+        "source": "2476",
+        "target": "2477",
+        "weight": 1.0
+      },
+      {
+        "source": "2477",
+        "target": "4018",
+        "weight": 2.4291666666666667
+      },
+      {
+        "source": "2477",
+        "target": "3598",
+        "weight": 0.04
+      },
+      {
+        "source": "2477",
+        "target": "2733",
+        "weight": 0.0625
+      },
+      {
+        "source": "302",
+        "target": "2733",
+        "weight": 0.4288220551378446
+      },
+      {
+        "source": "2733",
+        "target": "1174",
+        "weight": 0.04
+      },
+      {
+        "source": "2733",
+        "target": "4018",
+        "weight": 0.9775
+      },
+      {
+        "source": "2733",
+        "target": "3515",
+        "weight": 0.041666666666666664
+      },
+      {
+        "source": "4018",
+        "target": "1174",
+        "weight": 1.04
+      },
+      {
+        "source": "4018",
+        "target": "3515",
+        "weight": 0.041666666666666664
+      }
+    ],
+    "filter_stats": {
+      "total_nodes": 199,
+      "active_nodes": 13,
+      "filtered_out": 186,
+      "min_events": 5,
+      "weight_statistics": {
+        "min_weight": 0.04,
+        "max_weight": 2.4291666666666667,
+        "avg_weight": 0.5171900674145257,
+        "median_weight": 0.041666666666666664
+      },
+      "edge_density": 0.13321562342495358
+    }
+  },
+  "statistics": {
+    "density": 0.13321562342495358,
+    "avg_degree": 2.8333333333333335,
+    "avg_weighted_degree": 1.465371857674489,
+    "clustering_coefficient": 0.022528555211812486,
+    "number_of_edges": 17,
+    "active_members_ratio": 0.06532663316582915
+  }
+}
