@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
   BarChart,
   Bar,
@@ -234,6 +235,15 @@ const VenueTypeComparison = () => {
             ))}
           </BarChart>
         </ResponsiveContainer>
+      </div>
+      <div className="mt-8 flex justify-center">
+        <Link
+          to="/"
+          className="px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md 
+                   transition-colors duration-200 flex items-center gap-2"
+        >
+          ← Return to Main Page
+        </Link>
       </div>
     </div>
   );

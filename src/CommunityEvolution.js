@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import {
-  LineChart,
-  Line,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -15,7 +14,6 @@ import Papa from 'papaparse';
 
 const CommunityEvolution = () => {
   const [selectedCommunity, setSelectedCommunity] = useState(null);
-  const [viewType, setViewType] = useState('events');
   const [displayMode, setDisplayMode] = useState('absolute'); // 'absolute' or 'percentage'
   const [temporalData, setTemporalData] = useState({});
   const [availableCommunities, setAvailableCommunities] = useState([]);
@@ -52,20 +50,18 @@ const CommunityEvolution = () => {
                   yearTotal += row[key];
                   
                   if (!allCommunitiesData[row.year]) {
-                    allCommunitiesData[row.year] = { year: row.year, events: 0 };
+                    allCommunitiesData[row.year] = { year: row.year };
                     Object.keys(venueDescriptions).forEach(type => {
                       allCommunitiesData[row.year][type] = 0;
                     });
                   }
                   allCommunitiesData[row.year][venueType] = (allCommunitiesData[row.year][venueType] || 0) + row[key];
-                  allCommunitiesData[row.year].events = (allCommunitiesData[row.year].events || 0) + row[key];
                 }
               });
               
               // Add both absolute numbers and percentages
               processedData[row.community_id].push({
                 year: row.year,
-                events: row.total_events,
                 ...venueData,
                 ...Object.keys(venueData).reduce((acc, venue) => {
                   acc[`${venue}_pct`] = (venueData[venue] / yearTotal) * 100;
@@ -77,7 +73,8 @@ const CommunityEvolution = () => {
             // Process percentages for all communities data
             const allCommunitiesArray = Object.values(allCommunitiesData)
               .map(yearData => {
-                const yearTotal = yearData.events;
+                const yearTotal = Object.keys(venueDescriptions)
+                  .reduce((sum, venue) => sum + yearData[venue], 0);
                 return {
                   ...yearData,
                   ...Object.keys(venueDescriptions).reduce((acc, venue) => {
@@ -175,7 +172,7 @@ const CommunityEvolution = () => {
           <select
             value={selectedCommunity}
             onChange={(e) => setSelectedCommunity(e.target.value)}
-            className="px-4 py-2 border rounded"
+            className="px-4 py-2 border rounded shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
           >
             {availableCommunities.map(comm => (
               <option key={comm} value={comm}>
@@ -184,77 +181,56 @@ const CommunityEvolution = () => {
             ))}
           </select>
           <button
-            className={`px-4 py-2 rounded ${viewType === 'events' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-            onClick={() => setViewType('events')}
+            className={`px-4 py-2 rounded transition-colors ${
+              displayMode === 'percentage' 
+                ? 'bg-blue-500 text-white hover:bg-blue-600' 
+                : 'bg-gray-200 hover:bg-gray-300'
+            }`}
+            onClick={() => setDisplayMode(displayMode === 'absolute' ? 'percentage' : 'absolute')}
           >
-            Event Timeline
+            {displayMode === 'absolute' ? 'Show Percentages' : 'Show Numbers'}
           </button>
-          <button
-            className={`px-4 py-2 rounded ${viewType === 'venues' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-            onClick={() => setViewType('venues')}
-          >
-            Venue Distribution
-          </button>
-          {viewType === 'venues' && (
-            <button
-              className={`px-4 py-2 rounded ${displayMode === 'percentage' ? 'bg-blue-500 text-white' : 'bg-gray-200'}`}
-              onClick={() => setDisplayMode(displayMode === 'absolute' ? 'percentage' : 'absolute')}
-            >
-              {displayMode === 'absolute' ? 'Show Percentages' : 'Show Numbers'}
-            </button>
-          )}
         </div>
       </div>
       <div className="h-[500px]">
         <ResponsiveContainer width="100%" height="100%">
-          {viewType === 'events' ? (
-            <LineChart
-              data={temporalData[selectedCommunity]}
-              margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-            >
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="year" />
-              <YAxis />
-              <Tooltip content={<CustomTooltip />} />
-              <Legend />
-              <Line 
-                type="monotone" 
-                dataKey="events" 
-                stroke="#8884d8" 
-                strokeWidth={2}
-                name="Total Events" 
+          <ComposedChart
+            data={temporalData[selectedCommunity]}
+            margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+          >
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="year" />
+            <YAxis 
+              label={{ 
+                value: displayMode === 'percentage' ? 'Percentage' : 'Number of Events',
+                angle: -90,
+                position: 'insideLeft'
+              }}
+            />
+            <Tooltip content={<CustomTooltip />} />
+            <Legend />
+            {Object.keys(venueDescriptions).map(venueType => (
+              <Area
+                key={venueType}
+                type="monotone"
+                dataKey={displayMode === 'percentage' ? `${venueType}_pct` : venueType}
+                fill={colors[venueType]}
+                stroke={colors[venueType]}
+                stackId="1"
+                name={venueDescriptions[venueType]}
               />
-            </LineChart>
-          ) : (
-            <ComposedChart
-              data={temporalData[selectedCommunity]}
-              margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-            >
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="year" />
-              <YAxis 
-                label={{ 
-                  value: displayMode === 'percentage' ? 'Percentage' : 'Number of Events',
-                  angle: -90,
-                  position: 'insideLeft'
-                }}
-              />
-              <Tooltip content={<CustomTooltip />} />
-              <Legend />
-              {Object.keys(venueDescriptions).map(venueType => (
-                <Area
-                  key={venueType}
-                  type="monotone"
-                  dataKey={displayMode === 'percentage' ? `${venueType}_pct` : venueType}
-                  fill={colors[venueType]}
-                  stroke={colors[venueType]}
-                  stackId="1"
-                  name={venueDescriptions[venueType]}
-                />
-              ))}
-            </ComposedChart>
-          )}
+            ))}
+          </ComposedChart>
         </ResponsiveContainer>
+      </div>
+      <div className="mt-8 flex justify-center">
+        <Link
+          to="/"
+          className="px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md 
+                   transition-colors duration-200 flex items-center gap-2"
+        >
+          ← Return to Main Page
+        </Link>
       </div>
     </div>
   );

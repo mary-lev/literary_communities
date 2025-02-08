@@ -317,6 +317,25 @@ const CommunityTimeline = () => {
                     />
                 )}
             </div>
+            <div className="mt-6 mb-8 flex gap-4 justify-center">
+                <Link 
+                    to="/community-evolution"
+                    className="flex-1 max-w-xs text-center py-3 px-4 bg-green-50 hover:bg-green-100 
+                             text-green-600 rounded-md transition-colors duration-200 border border-green-200"
+                >
+                    <span className="block font-medium">Community Evolution</span>
+                    <span className="text-sm text-green-500">Explore how communities change over time</span>
+                </Link>
+                
+                <Link 
+                    to="/event-type"
+                    className="flex-1 max-w-xs text-center py-3 px-4 bg-purple-50 hover:bg-purple-100 
+                             text-purple-600 rounded-md transition-colors duration-200 border border-purple-200"
+                >
+                    <span className="block font-medium">Event Types</span>
+                    <span className="text-sm text-purple-500">Analyze different types of events</span>
+                </Link>
+            </div>
 
             <div className="mt-4 space-y-2">
                 <CommunityInfo

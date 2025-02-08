@@ -1,6 +1,7 @@
 // CommunityDetail.js
 import React, { useEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import * as d3 from 'd3';
 
 const CommunityDetail = () => {
@@ -319,6 +320,15 @@ const CommunityDetail = () => {
                                 </ul>
                             </div>
                         )}
+                        <div className="mt-8 flex justify-center">
+        <Link
+          to="/"
+          className="px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-md 
+                   transition-colors duration-200 flex items-center gap-2"
+        >
+          ← Return to Main Page
+        </Link>
+      </div>
                     </div>
                 </div>
             </div>
