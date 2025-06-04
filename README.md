@@ -32,6 +32,17 @@ The dataset documents:
 - 862 venues
 - Period: 1999-2019
 
+## Running Locally
+
+Ensure you have **Node.js v18 or newer** installed. Then use the following commands to set up and start the development server:
+
+```bash
+npm install
+npm start
+```
+
+This will launch the application locally at [http://localhost:3000](http://localhost:3000).
+
 ## License
 
 This dataset is released under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
