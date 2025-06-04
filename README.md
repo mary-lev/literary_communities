@@ -8,7 +8,7 @@ This repository contains an anonymized dataset accompanying a paper under review
 
 ### /data
 - `cooccurrence_list_fraction.json`: Network co-occurrence data
-- `events_with_al_tags.csv`: Events with AI-tags
+- `events_with_ai_tags.csv`: Events with AI-tags
 - `events_with_tags.csv`: Events with manual tags
 - `events.csv`: Primary event data
 - `persons.csv`: Participant data
