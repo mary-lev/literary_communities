@@ -63,7 +63,6 @@ const CommunityDetail = () => {
                     networkResponse.json()
                 ]);
 
-                console.log('Network data structure:', networkJson); // Debug log
 
                 const metadata = metadataJson.community_metadata[communityId];
 
